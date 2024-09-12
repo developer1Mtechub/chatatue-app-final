@@ -16,6 +16,7 @@ import { useFocusEffect, useIsFocused } from '@react-navigation/native';
 import ListItem from '../../../components/ListItem';
 import { getAllEvents } from '../../../redux/EventSlices/getAllEventsSlice';
 import Contacts from 'react-native-contacts';
+import ContactItems from '../../../components/ContactItems';
 const { width } = Dimensions.get('window');
 const GRID_COLUMNS = 2;
 const ITEM_MARGIN = 10;
@@ -217,6 +218,8 @@ const Home = ({ navigation }) => {
                     <Text style={[styles.defaultLabelStyle]}>{"Suggested Contacts"}</Text>
                     <Text style={[styles.defaultValueStyle]}>{"See all"}</Text>
                 </View>
+
+                <ContactItems />
 
             </ScrollView>
 

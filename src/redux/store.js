@@ -70,6 +70,7 @@ import getAchievementReducer from './EventSlices/getAchievementSlice';
 import setEventRoutesReducer from './setEventRoutesSlice';
 import getRouteByIdReducer from './ClubCreation/getRouteByIdSlice';
 import getAllEventActivitiesReducer from './EventSlices/getAllEventActivitiesSlice';
+import getUserContactsReducer from './Contacts/getUserContactsSlice';
 
 const persistConfig = {
     key: 'root',
@@ -145,7 +146,8 @@ const rootReducer = combineReducers({
     getAchievement: getAchievementReducer,
     eventRoutes: setEventRoutesReducer,
     getRouteById: getRouteByIdReducer,
-    getAllEventActivities:getAllEventActivitiesReducer
+    getAllEventActivities: getAllEventActivitiesReducer,
+    getUserContacts: getUserContactsReducer
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
