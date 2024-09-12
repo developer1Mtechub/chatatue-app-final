@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050005891908",
+    "project_id": "chatatue-mtechub",
+    "storage_bucket": "chatatue-mtechub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050005891908:android:32e378db8891a040360511",
+        "android_client_info": {
+          "package_name": "com.chatatueappmtechub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050005891908-5lq1ftcgjjn795fh2ebdrq5u0saqu494.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbLvtNjr7RrKALy2VGCw8UY-hJAo2tbYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050005891908-5lq1ftcgjjn795fh2ebdrq5u0saqu494.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
